@@ -54,11 +54,8 @@ cd controle-gastos
    source venv/bin/activate  # Linux/Mac
    venv\Scripts\activate    # Windows
    ```
-3. Instale as dependências:
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. Configure o banco de dados:
+
+3. Configure o banco de dados:
    - No arquivo `controle-gastos-backend/settings.py`, atualize as credenciais do banco PostgreSQL:
      ```python
      DATABASES = {
@@ -72,12 +69,12 @@ cd controle-gastos
          }
      }
      ```
-5. Execute as migrações:
+4. Execute as migrações:
    ```bash
    python manage.py makemigrations
    python manage.py migrate
    ```
-6. Inicie o servidor:
+5. Inicie o servidor:
    ```bash
    python manage.py runserver
    ```
