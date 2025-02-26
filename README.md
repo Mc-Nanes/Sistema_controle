@@ -46,7 +46,7 @@ cd controle-gastos
 ### 2️⃣ Configurando o Backend (Django)
 1. Acesse o diretório do backend:
    ```bash
-   cd controle-gastos-backend
+   cd controle_gastos_backend
    ```
 2. Crie e ative um ambiente virtual:
    ```bash
@@ -56,7 +56,7 @@ cd controle-gastos
    ```
 
 3. Configure o banco de dados:
-   - No arquivo `controle-gastos-backend/settings.py`, atualize as credenciais do banco PostgreSQL:
+   - No arquivo `controle_gastos_backend/settings.py`, atualize as credenciais do banco PostgreSQL:
      ```python
      DATABASES = {
          'default': {
@@ -83,7 +83,7 @@ cd controle-gastos
 ### 3️⃣ Configurando o Frontend (React + Vite)
 1. Acesse o diretório do frontend:
    ```bash
-   cd ../controle-gastos-frontend
+   cd ../controle_gastos_frontend
    ```
 2. Instale as dependências:
    ```bash
